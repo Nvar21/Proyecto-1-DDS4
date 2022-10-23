@@ -97,12 +97,38 @@ header{
     padding-right: 10%;
 }
 /**********************************************************/
+.grid{
+    display: flex;
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 60px;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+.grid div{
+    padding-top: 6%;
+    background-color: #45B6ED;
+}
+.grid div:hover{
+    border-right: 1px solid black;
+    border-left: 1px solid black;    
+}
+.grid div a{
+    color:white;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/**********************************************************/
 footer{
     width: 100%;
-    height: 300px;
+    height: 600px;
     padding: 20px 0px;
     background: linear-gradient(60deg, #45B6ED, #1597d8,rgb(3, 184, 12));
-
+    
 }
 
 .grid2{
@@ -110,19 +136,22 @@ footer{
     display: grid;
     width: 100%;
     height: 98%;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
+    grid-template-columns: 30% 36% 33%;
+    /*text-align: center;*/
+    color:#e2e2e2
 }
-.grid2 div{
-    padding-top: 6%;
-
+.grid2 div h5{
+    position:relative;
+    padding-left: 10px;
 }
-.grid2 div a{
-    color:white;
+.grid2 div ul{
+    list-style: none;
+    margin-left: -20px;
+}
+.grid2 div ul li a{
+    margin: -10px;
     text-decoration: none;
-    padding-top: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
+    color:#e2e2e2
 }
 .imgfooter{
     height: 100px;
