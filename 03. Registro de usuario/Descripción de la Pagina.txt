@@ -1,0 +1,1 @@
+Página con un formulario de registro para los clientes de la veterinaria.
