@@ -218,6 +218,7 @@ form .boton-registro input {
 form .boton-registro input:hover {
     color: rgb(0, 0, 0);
     background: linear-gradient(-135deg, #54b9eb, rgb(57, 239, 66));
+    cursor: pointer;
 }
 
 /*responsive*/
