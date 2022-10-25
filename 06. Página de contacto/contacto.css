@@ -99,10 +99,9 @@ header{
 /**********************************************************/
 footer{
     width: 100%;
-    height: 300px;
     padding: 20px 0px;
     background: linear-gradient(60deg, #45B6ED, #1597d8,rgb(3, 184, 12));
-
+    
 }
 
 .grid2{
@@ -110,19 +109,22 @@ footer{
     display: grid;
     width: 100%;
     height: 98%;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
+    grid-template-columns: 30% 36% 33%;
+    /*text-align: center;*/
+    color:#e2e2e2
 }
-.grid2 div{
-    padding-top: 6%;
-
+.grid2 div h5{
+    position:relative;
+    padding-left: 10px;
 }
-.grid2 div a{
-    color:white;
+.grid2 div ul{
+    list-style: none;
+    margin-left: -20px;
+}
+.grid2 div ul li a{
+    margin: -10px;
     text-decoration: none;
-    padding-top: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
+    color:#e2e2e2
 }
 .imgfooter{
     height: 100px;
