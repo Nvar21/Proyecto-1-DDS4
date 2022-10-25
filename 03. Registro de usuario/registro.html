@@ -45,81 +45,92 @@
             </div>
         </div>
     </header>
-    
-    <div class="registro">
-        <form class="form">
-        <h2 class="form-title">Regístrate</h2>
-            <!-- <div class="form-both">
-                <section class="form-izquierda"> -->
-            <!--Nombre-->
-            <label for="name" class="form-label">Nombre</label>
-            <input type="text" id="name" class="form-input" placeholder="Ingrese su nombre...">
-            <span class="form-line"></span>
 
-            <!--Apellido-->
-            <label for="lastname" class="form-label">Apellido</label>
-            <input type="text" id="lastname" class="form-input">
-            <span class="form-line"></span>
+    <section class="registro fondo-registro">
+    <div class="contenedor">
+        <div class="titulo">Regístrate</div>
+        <form action="#">
+            <div class="info-usuario">
+                <!--Nombre-->
+                <div class="input-box"> 
+                    <label for="name" class="info">Nombre</label>
+                    <input type="text" id="name" placeholder="Ingrese su nombre" required>
+                </div>
+                <!--Apellido-->
+                <div class="input-box">
+                    <label for="lastname" class="info">Apellido</label>
+                    <input type="text" id="lastname" placeholder="Ingrese su apellido" required>
+                </div>
+                <!--Cédula-->
+                <div class="input-box">
+                    <label for="cedula" class="info">Cédula</label>
+                    <input type="text" id="cedula" placeholder="Ingrese su cédula" required>
+                </div>
+                <!--Usuario-->
+                <div class="input-box">
+                    <label for="user" class="info">Usuario</label>
+                    <input type="text" id="user" placeholder="Ingrese su nombre de usuario" required>
+                </div>
+                <!--Contraseña-->
+                <div class="input-box">
+                    <label for="password" class="info">Contraseña</label>
+                    <input type="password" id="password" placeholder="Escriba su contraseña" required>
+                </div>
+                <!--Repetir contraseña-->
+                <div class="input-box">
+                    <label for="password" class="info">Confirme su contraseña</label>
+                    <input type="password" id="password" placeholder="Escriba su contraseña" required>
+                </div>
+                <!--Teléfono-->
+                <div class="input-box">
+                    <label for="telefono" class="info">Teléfono</label>
+                    <input type="text" id="telefono" placeholder="Ingrese su teléfono" required>
+                </div>
+                <!--Correo-->
+                <div class="input-box">
+                    <label for="email" class="info">Correo</label>
+                    <input type="email" id="email" placeholder="Ingrese su correo" required>
+                </div>
+            </div>
 
-            <!--Cédula-->
-            <label for="cedula" class="form-label">Cédula</label>
-            <input type="text" id="cedula" class="form-input">
-            <span class="form-line"></span>
-
-            <!--Usuario-->
-            <label for="user" class="form-label">Usuario</label>
-            <input type="text" id="user" class="form-input">
-            <span class="form-line"></span>
-
-            <!--Contraseña-->
-            <label for="password" class="form-label">Contraseña</label>
-            <input type="password" id="password" class="form-input">
-            <span class="form-line"></span>
-
-            <!--Repetir contraseña-->
-            <label for="password" class="form-label">Confirme su contraseña</label>
-            <input type="password" id="password" class="form-input">
-            <span class="form-line"></span>
-            <br>
-            <fieldset>
-                <legend>Dirección</legend>
-                <!--Provincia-->
-                <br>
-                <label for="provincia" class="form-label">Provincia</label>
-                <input type="text" id="provincia" class="form-input">
-                <span class="form-line"></span>
-                <!--Distrito-->
-                <label for="distrito" class="form-label">Distrito</label>
-                <input type="text" id="distrito" class="form-input">
-                <span class="form-line"></span>
-                <!--Corregimiento-->
-                <label for="corregimiento" class="form-label">Corregimiento</label>
-                <input type="text" id="corregimiento" class="form-input">
-                <span class="form-line"></span>
-                <!--Calle-->
-                <label for="calle" class="form-label">Calle</label>
-                <input type="text" id="calle" class="form-input">
-                <span class="form-line"></span>
-                <!--Casa-->
-                <label for="casa" class="form-label">Casa</label>
-                <input type="text" id="casa" class="form-input">
-                <span class="form-line"></span>
-            </fieldset>
-            <br>
-            <!--Teléfono-->
-            <label for="password" class="form-label">Teléfono</label>
-            <input type="text" id="telefono" class="form-input">
-            <span class="form-line"></span>
-
-            <!--Correo-->
-            <label for="email" class="form-label">Correo</label>
-            <input type="email" id="email" class="form-input">
-            <span class="form-line"></span>
-
-            <input type="submit" class="form-submit" value="Registrarme">
+            <div class="direccion">
+                <fieldset>
+                    <legend>Dirección</legend>
+                        <!--Provincia-->
+                        <div class="input-box">
+                            <label for="provincia" class="info">Provincia</label>
+                            <input type="text" id="provincia" placeholder="" required>
+                        </div>
+                        <!--Distrito-->
+                        <div class="input-box">
+                            <label for="distrito" class="info">Distrito</label>
+                            <input type="text" id="distrito" placeholder="" required>
+                        </div>
+                        <!--Corregimiento-->
+                        <div class="input-box">
+                            <label for="corregimiento" class="info">Corregimiento</label>
+                            <input type="text" id="corregimiento" placeholder="" required>
+                        </div>
+                        <!--Calle-->
+                        <div class="input-box">
+                            <label for="calle" class="info">Calle</label>
+                            <input type="text" id="calle" placeholder="" required>
+                        </div>
+                        <!--Casa-->
+                        <div class="input-box">
+                            <label for="casa" class="info">Casa</label>
+                            <input type="text" id="casa" placeholder="" required>
+                        </div>
+                </fieldset>
+            </div>
+                
+            <div class="boton-registro">
+                <input type="submit" value="Registrarme">
+            </div>  
+        </div>
         </form>
     </div>
-    
+    </section>
     <footer>
         <div class="grid2">
             <div>
