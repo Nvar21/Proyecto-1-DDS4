@@ -1,0 +1,349 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+/***********************************************************************/
+header {
+  position: relative;
+}
+.Encabezado {
+  margin-top: 0%;
+  background-color: #45b6ed;
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+.Encabezado a {
+  display: block;
+  position: relative;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  width: 100%;
+}
+.Encabezado a img {
+  position: static;
+  float: left;
+}
+.flotarderecha {
+  position: relative;
+  text-align: center;
+  margin-left: 5%;
+  display: flex;
+  float: left;
+}
+
+.img {
+  height: 100px;
+}
+
+.Buscador {
+  float: left;
+  position: relative;
+  width: 60%;
+}
+.Buscador input[type="text"] {
+  margin-top: 1%;
+  margin-left: 10%;
+  width: 80%;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  background-color: #e2e2e2;
+}
+.Buscador button {
+  background-color: #e2e2e2;
+  margin-top: 1%;
+  position: absolute;
+  color: #e2e2e2;
+  float: left;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.Buscador button img {
+  height: 20px;
+}
+/*********************************************************************************/
+.grid {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 60px;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+}
+.grid div {
+  padding-top: 6%;
+  background-color: #45b6ed;
+}
+.grid div:hover {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.grid div a {
+  color: white;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/**********************************************************/
+.grid {
+  display: flex;
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 60px;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+}
+.grid div {
+  padding-top: 6%;
+  background-color: #45b6ed;
+}
+.grid div:hover {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.grid div a {
+  color: white;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/**********************************************************/
+footer {
+  width: 100%;
+  height: 600px;
+  padding: 20px 0px;
+  background: linear-gradient(60deg, #45b6ed, #1597d8, rgb(3, 184, 12));
+}
+
+.grid2 {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 98%;
+  grid-template-columns: 30% 36% 33%;
+  /*text-align: center;*/
+  color: #e2e2e2;
+}
+.grid2 div h5 {
+  position: relative;
+  padding-left: 10px;
+}
+.grid2 div ul {
+  list-style: none;
+  margin-left: -20px;
+}
+.grid2 div ul li a {
+  margin: -10px;
+  text-decoration: none;
+  color: #e2e2e2;
+}
+.imgfooter {
+  height: 100px;
+  border-radius: 20px;
+}
+
+/*NUEVO CSS*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-logo {
+  float: center;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(60deg, #45b6ed, #1597d8, rgb(3, 184, 12));
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+nav {
+  display: inline-block;
+}
+
+section {
+  margin: auto;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 0%;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  padding-right: 150px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  border-radius: 1rem;
+  background: rgba(119, 246, 255, 0.671);
+  transition: background-color 1s ease;
+}
+
+.li-aves {
+  list-style: none;
+  padding: 10px 30px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/3069/3069186.png");
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.li-peces {
+  list-style: none;
+  padding: 10px 30px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/875/875011.png");
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.li-roedores {
+  list-style: none;
+  padding: 10px 30px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/6807/6807896.png");
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.li-reptiles {
+  list-style: none;
+  padding: 10px 30px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8038/8038991.png");
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.barra-de-busqueda {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  margin-left: 5%;
+  font-size: larger;
+  width: 75%;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.boton-de-busqueda {
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  font-size: larger;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.barra-de-busqueda:hover,
+.boton-de-busqueda:hover {
+  background-color: lavender;
+  color: black;
+}
+
+.boton-de-regresar {
+  padding: 5px;
+  color: gray;
+  margin-left: 5%;
+  float: left;
+}
+.contenedor-resultados {
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.titulo-resultado-de-busqueda {
+  margin-left: 10%;
+  margin-bottom: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(92, 91, 91);
+}
+
+.resultados {
+  font-size: large;
+  clear: both;
+  padding-bottom: 50px;
+}
+
+.resultados a {
+  padding: 5px;
+  color: rgb(153, 192, 94);
+}
+
+.resultados p {
+  width: 60%;
+  margin-left: 15px;
+  padding-left: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: normal;
+  font-size: medium;
+  color: rgb(68, 68, 68);
+}
+
+.img-resultado {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  float: left;
+  width: 150px;
+}
+
+/*FOOTER*/
+
+footer {
+  width: 100%;
+  height: 600px;
+  padding: 20px 0px;
+  background: linear-gradient(60deg, #45b6ed, #1597d8, rgb(3, 184, 12));
+}
+
+.grid2 {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 98%;
+  grid-template-columns: 30% 36% 33%;
+  /*text-align: center;*/
+  color: #e2e2e2;
+}
+.grid2 div h5 {
+  position: relative;
+  padding-left: 10px;
+}
+.grid2 div ul {
+  list-style: none;
+  margin-left: -20px;
+}
+.grid2 div ul li a {
+  margin: -10px;
+  text-decoration: none;
+  color: #e2e2e2;
+}
+.imgfooter {
+  height: 100px;
+  border-radius: 20px;
+}
