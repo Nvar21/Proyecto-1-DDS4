@@ -1,138 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oikiakos/Perfil</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="../01. Página Principal/imagenes/LogoCeleste.JPG" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
     <header>
-      <nav class="Encabezado">
-        <div>
-          <a title="Inicio" href=""
-            ><img src="imagenes/LogoCeleste.JPG" alt="LogoOikiakos" class="img"
-          /></a>
+        <nav class="Encabezado"> 
+            <div>
+                <a title="Inicio" href="" ><img src="../Imagenes/LogoCeleste.jpg" alt="LogoOikiakos" class="img"/></a>
+            </div>
+            <div class="Buscador">
+                <form action="#">
+                    <input type="text"
+                        placeholder="Buscar"
+                        name="search">
+                    <button>
+                        <img src="../Imagenes/lupa.png" alt="">
+                    </button>
+                </form>
+            </div>
+            <div class="flotarderecha">
+                <a href="">Inisiar Sesion</a>
+                <a href="">Sobre Nosotros</a>
+            </div>
+        </nav>
+        <div class="grid">
+            <div >
+                <a href="">Aves</a>
+            </div>
+            <div>
+                <a href="">Roedores</a>
+            </div>
+            <div>
+                <a href="">Peces</a>
+            </div>
+            <div>
+                <a href="">Reptiles</a>
+            </div>
         </div>
-        <div class="Buscador">
-          <form action="#">
-            <input type="text" placeholder="Buscar" name="search" />
-            <button>
-              <img src="imagenes/lupa.png" alt="" />
-            </button>
-          </form>
-        </div>
-        <div class="flotarderecha">
-          <a href="../02. Inicio de sesión o “login”/Login.html">Inisiar Sesion</a>
-          <a href="../03. Registro de usuario/registro.html">Registrarse</a>
-        </div>
-      </nav>
-      <div class="grid">
-        <div>
-          <a href="../09. Página de revisión del contenido cargado/Aves.html">Aves</a>
-        </div>
-        <div>
-          <a href="../09. Página de revisión del contenido cargado/Roedores.html">Roedores</a>
-        </div>
-        <div>
-          <a href="../09. Página de revisión del contenido cargado/Peces.html">Peces</a>
-        </div>
-        <div>
-          <a href="../09. Página de revisión del contenido cargado/Reptiles.html">Reptiles</a>
-        </div>
-      </div>
     </header>
-
-    <section class="contenedor_datos">
-      <div>
-        <h2 class="nombreUsuario">Nombre Usuario</h2>
-        <img
-          class="imgProfile"
-          src="imagenes\Profile_pic.png"
-          alt="Default picture"
-        />
-      </div>
-
-      <div style="clear: left"class="caja_datos">
-        <h3>Información del Usuario</h3>
-        <div style="padding-right: 15px">
-          <ul>
-            <li><b>Correo: </b></li>
-            <li><b>País: </b></li>
-            <li><b>Provincia: </b></li>
-            <li>
-              <b>Número <br />de Teléfono: </b>
-            </li>
-          </ul>
+    <section class = "flex align-items" id = "section1">
+        <div class = "flex align-items" id = "div1">
+            <h1>Nombre de Usuario</h1>
+            <img src="../Imagenes/login.png" alt="">
         </div>
-      </div>
+        <div class = "flex" id= "div2">
+            <h1>Información del Usuario</h1>
+            <div id = "div1">
+                <p>Correo:</p>
+                <p>País:</p>
+                <p>Provincia:</p>
+                <p>Número de teléfono:</p>
+            </div>
+            <div>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+        </div>
     </section>
-    <br /><br /><br /><br /><br />
-  </body>
-  <footer>
+    <section class = "flex marginlr" id = "section2">
+        <div class = "flex div3">
+            <div class = "flex div4"><img src="../Imagenes/send-paper.svg" width="40px" alt=""></div>
+            <div class = "flex div5"><h1>Tus Pedidos</h1></div>
+        </div>
+        <div class = "flex div3">
+            <div class = "flex div4"><img src="../Imagenes//bars-graphic.svg" width="40px" alt=""></div>
+            <div class = "flex div5"><h1>Actividad Reciente</h1></div>
+        </div>
+        <div class = "flex div3">
+            <div class = "flex div4"><img src="../Imagenes/parrot-bird-repeat.svg" width="40px" alt=""></div>
+            <div class = "flex div5"><h1>Tus Mascotas</h1></div>
+        </div>
+    </section>
+    <section class = "marginlr" id="section-carrusel">
+        
+        <div class = "flex div6">
+            <img class = "img2" src="../Imagenes/arrow-left.svg" width="80px"alt="">
+            <img src="../Imagenes/parrot.jpg" width="300px" alt="">
+            <img src="../Imagenes/fish.jpg" width="300px" alt="">
+            <img src="../Imagenes/fish2.jpg" width="300px" alt="">
+            <img class = "img2" src="../Imagenes/arrow-right.svg" width="80px" alt="">
+        </div>
+        <div>
+            <h1>Favoritos</h1>
+        </div>
+    </section>
+    <section class = "flex marginlr" id = "section3">
+        <div class = "flex div7">
+            <img src="../Imagenes/mapa.jpg" alt="">
+            <p>Dirección de entrega</p>
+        </div>
+        <div class = "div8">
+            <select name="dog-names" id="dog-names">
+                <option value="" disabled selected>Métodos de pago</option>
+                <option value="">Card Title</option>
+                <option value="">Card Title</option>
+                <option value="">Card Title</option>
+                <option value="">Card Title</option>
+            </select>
+        </div>
+    </section>
+</body>
+<footer>
     <div class="grid2">
-      <div>
-        <h5>NOSOTROS</h5>
-        <ul>
-          <li>
-            <h6><a href="../08. Página para cargar (Administración CRUD) contenido sobre el sitio/Nosotros.html">Nosotros</a></h6>
-          </li>
-          <li>
-            <h6><a href="../05. Página de acerca del proyecto/Acerca_del_proyecto.html">Sobre el Proyecto</a></h6>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h5>DEPARTAMENTOS</h5>
-        <ul>
-          <li>
-            <h6><a href="../09. Página de revisión del contenido cargado/Peces.html">Peces</a></h6>
-          </li>
-          <li>
-            <h6><a href="../09. Página de revisión del contenido cargado/Roedores.html">Roedores</a></h6>
-          </li>
-          <li>
-            <h6><a href="../09. Página de revisión del contenido cargado/Aves.html">Aves</a></h6>
-          </li>
-          <li>
-            <h6><a href="../09. Página de revisión del contenido cargado/Reptiles.html">Reptiles</a></h6>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h5>ENLACES ÚTILES</h5>
-        <ul>
-          <li>
-            <h6><a href="">Terminos y Condiciones</a></h6>
-          </li>
-          <li>
-            <h6><a href="">Politicas y Privacidad</a></h6>
-          </li>
-          <li>
-            <h6><a href="">Politicas de Servicio</a></h6>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h5>CONTACTENOS</h5>
-        <ul>
-          <li>
-            <h6><a href="../06. Página de contacto/contacto.html">Contactenos</a></h6>
-          </li>
-          <li><h6>Whatsapp (+507) 6466-6026</h6></li>
-          <li><h6>Correo: OikiakosPanama@hotmail.com</h6></li>
-        </ul>
-      </div>
-      <div>
-        <a href=""></a>
-      </div>
-      <div>
-        <a href="index.html"
-          ><img src="imagenes/LogoCeleste.JPG" alt="" class="imgfooter"
-        /></a>
-      </div>
+        <div>
+            <h5>NOSOTROS</h5>
+            <ul>
+                <li><h6><a href="">Nosotros</a></h6></li>
+                <li><h6><a href="">Sobre el Proyecto</a></h6></li>
+            </ul>
+        </div>
+        <div>
+            <h5>DEPARTAMENTOS</h5>
+            <ul>
+                <li><h6><a href="">Peces</a></h6></li>
+                <li><h6><a href="">Roedores</a></h6></li>
+                <li><h6><a href="">Aves</a></h6></li>
+                <li><h6><a href="">Reptiles</a></h6></li>
+            </ul>
+        </div>
+        <div>
+            <h5>ENLACES ÚTILES</h5>
+            <ul>
+                <li><h6><a href="">Terminos y Condiciones</a></h6></li>
+                <li><h6><a href="">Politicas y Privacidad</a></h6></li>
+                <li><h6><a href="">Politicas de Servicio</a></h6></li>
+            </ul>
+        </div>
+        <div>
+            <h5>CONTACTENOS</h5>
+            <ul>
+                <li><h6><a href="">Contactenos</a></h6></li>
+                <li><h6>Whatsapp (+507) 6466-6026</h6></li>
+                <li><h6>Correo: OikiakosPanama@hotmail.com</h6></li>
+            </ul>
+        </div>
+        <div>
+            <a href=""></a>
+        </div>
+        <div>
+            <a href="index.html"><img src="../Imagenes/LogoCeleste.JPG" alt=""class="imgfooter"></a>
+        </div>
     </div>
-  </footer>
+</footer>
 </html>
