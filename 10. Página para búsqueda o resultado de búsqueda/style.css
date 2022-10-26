@@ -11,7 +11,7 @@ header {
   text-align: center;
   background: linear-gradient(60deg, #45b6ed, #1597d8, rgb(3, 184, 12));
   width: 100%;
-  position: fixed;
+  position: relative;
   z-index: 100;
 }
 
@@ -20,11 +20,8 @@ nav {
 }
 
 section {
-  display: inline-block;
-}
-
-nav ul {
-  overflow: hidden;
+  margin: auto;
+  width: 100%;
 }
 
 nav ul li {
@@ -84,4 +81,27 @@ nav ul li:hover {
   float: left;
   background-repeat: no-repeat;
   background-size: 50px;
+}
+
+.barra-de-busqueda {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  margin-left: 10%;
+  font-size: larger;
+  width: 75%;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.boton-de-busqueda {
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  font-size: larger;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.barra-de-busqueda:hover,
+.boton-de-busqueda:hover {
+  background-color: lavender;
+  color: black;
 }
