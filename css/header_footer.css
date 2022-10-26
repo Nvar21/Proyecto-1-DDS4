@@ -20,19 +20,20 @@ header{
     text-align: left;
     padding: 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     width: 100%;
 }
 .Encabezado a img{
     position:static;
     float:left;
+    margin-left: 5%;
 }
 .flotarderecha{
     position:relative;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 8%;
     display: flex;
-    float:left;
+    
 }
 
 .img{
@@ -50,7 +51,9 @@ header{
     width:80%;
     height:40px;
     border-radius:25px;
+    font-size: 115%;
     border: none;
+    text-align: center;
     background-color: #e2e2e2;
 }  
 .Buscador button{
@@ -61,7 +64,7 @@ header{
     float: left;
     padding: 5px 10px;
     margin-right: 16px;
-    font-size: 10px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
     height: 40px;
@@ -69,7 +72,7 @@ header{
     border-radius: 50px;
 }
 .Buscador button img{
-    height: 20px;
+    height: 25px;
 }
 /*********************************************************************************/
 .grid{
@@ -125,10 +128,10 @@ header{
 /**********************************************************/
 footer{
     width: 100%;
-    height: 600px;
-    padding: 20px 0px;
+    height: 350px;
+    padding: 30px 0px;
     background: linear-gradient(-135deg, #54b9eb, rgb(57, 239, 66));
-    
+    font-size: 20px;
 }
 
 .grid2{
@@ -142,18 +145,23 @@ footer{
 }
 .grid2 div h5{
     position:relative;
-    padding-left: 10px;
+    padding-left: 25%;
+}
+.grid2 div h6{
+    position:relative;
+    padding-left: 15%;
 }
 .grid2 div ul{
     list-style: none;
-    margin-left: -20px;
+    margin-left: -15px;
 }
 .grid2 div ul li a{
     margin: -10px;
     text-decoration: none;
-    color:#e2e2e2
+    color:#e2e2e2;
+    margin-left: 10%;
 }
 .imgfooter{
-    height: 100px;
-    border-radius: 20px;
+    height: 150px;
+    border-radius: 30px;
 }
