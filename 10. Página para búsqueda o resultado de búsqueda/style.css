@@ -86,7 +86,7 @@ nav ul li:hover {
 .barra-de-busqueda {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-top: 5px;
-  margin-left: 9%;
+  margin-left: 5%;
   font-size: larger;
   width: 75%;
   border-radius: 10px;
@@ -107,8 +107,10 @@ nav ul li:hover {
 }
 
 .boton-de-regresar {
+  padding: 5px;
   color: gray;
-  margin-left: 1%;
+  margin-left: 5%;
+  float: left;
 }
 .contenedor-resultados {
   margin-left: 15%;
