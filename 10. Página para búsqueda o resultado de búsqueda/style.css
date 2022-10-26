@@ -86,7 +86,7 @@ nav ul li:hover {
 .barra-de-busqueda {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-top: 5px;
-  margin-left: 10%;
+  margin-left: 9%;
   font-size: larger;
   width: 75%;
   border-radius: 10px;
@@ -104,4 +104,84 @@ nav ul li:hover {
 .boton-de-busqueda:hover {
   background-color: lavender;
   color: black;
+}
+
+.boton-de-regresar {
+  color: gray;
+  margin-left: 1%;
+}
+.contenedor-resultados {
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.titulo-resultado-de-busqueda {
+  margin-left: 10%;
+  margin-bottom: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(92, 91, 91);
+}
+
+.resultados {
+  font-size: large;
+  clear: both;
+  padding-bottom: 50px;
+}
+
+.resultados a {
+  padding: 5px;
+  color: rgb(153, 192, 94);
+}
+
+.resultados p {
+  width: 60%;
+  margin-left: 15px;
+  padding-left: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: normal;
+  font-size: medium;
+  color: rgb(68, 68, 68);
+}
+
+.img-resultado {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  float: left;
+  width: 150px;
+}
+
+/*FOOTER*/
+
+footer {
+  width: 100%;
+  height: 600px;
+  padding: 20px 0px;
+  background: linear-gradient(60deg, #45b6ed, #1597d8, rgb(3, 184, 12));
+}
+
+.grid2 {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 98%;
+  grid-template-columns: 30% 36% 33%;
+  /*text-align: center;*/
+  color: #e2e2e2;
+}
+.grid2 div h5 {
+  position: relative;
+  padding-left: 10px;
+}
+.grid2 div ul {
+  list-style: none;
+  margin-left: -20px;
+}
+.grid2 div ul li a {
+  margin: -10px;
+  text-decoration: none;
+  color: #e2e2e2;
+}
+.imgfooter {
+  height: 100px;
+  border-radius: 20px;
 }
