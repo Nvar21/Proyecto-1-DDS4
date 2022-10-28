@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin: 0;
 }
 body{
     font-family: sans-serif;
@@ -84,9 +84,13 @@ body{
     background-color: white;
 }
 #section1 #div2 input{
+    width: 50%;
     box-sizing: border-box;
     margin-top: 15px;
     margin-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
 }
 #section1 h1{
     padding-top: 30px;
@@ -191,4 +195,10 @@ body{
 }
 
 /**********************************************************/
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: linear-gradient(60deg, #45B6ED, #1597d8,rgb(3, 184, 12));
+    
+}
 
