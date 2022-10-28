@@ -1,0 +1,144 @@
+
+/*Registro*/
+.registro {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/*
+.fondo-registro {
+    background: url(https://st3.depositphotos.com/1077687/12496/v/950/depositphotos_124965700-stock-illustration-animal-pet-cartoon-design.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+*/
+.contenedor {
+    max-width: 800px;
+    width: 100%;
+    background-color: #e2e2e2;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 24px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 10px 24px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+.contenedor .titulo {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+}
+
+.contenedor .titulo::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 32px;
+    background: linear-gradient(135deg, #54b9eb, rgb(57, 239, 66));
+}
+
+.contenedor form .info-usuario, .contenedor form .direccion fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .info-usuario .input-box, form .direccion .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.info-usuario .input-box .info, .direccion .input-box .info {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info-usuario .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    transition: all 0.3s ease;
+}
+
+.info-usuario .input-box input:focus, .info-usuario .input-box input:valid,
+.direccion .input-box input:focus, .direccion .input-box input:valid {
+    border-color: #54b9eb;
+}
+
+/*registro dirección*/
+
+form .direccion fieldset {
+    width: 100%;
+    border: 2px solid #ccc;
+    padding-right: 5px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.direccion .input-box input {
+    height: 45px;
+    width: 95%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    transition: all 0.3s ease;
+}
+
+form .boton-registro {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .boton-registro input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(62, 60, 60);
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #54b9eb, rgb(57, 239, 66));
+}
+
+form .boton-registro input:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(-135deg, #54b9eb, rgb(57, 239, 66));
+    cursor: pointer;
+}
+
+/*registro responsive*/
+@media (max-width: 584px) {
+    .contenedor {
+        max-width: 100%;
+    }
+    form .info-usuario .input-box, form .direccion .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .contenedor form .info-usuario, .contenedor form .direccion fieldset{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+}
+
+/**********************************************************/

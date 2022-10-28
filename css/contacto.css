@@ -1,0 +1,129 @@
+
+/*Contacto - enviar mensaje*/
+.banner-contacto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-image: url(../imagenes/contacto/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.texto-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contacto {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 600px;
+    width: 100%;
+    background-color: #e2e2e2;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+
+.contenedor form .info-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .info-contacto .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.info-contacto .input-box .info {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info-contacto .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    transition: all 0.3s ease;
+}
+
+.info-contacto .input-box textarea {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    transition: all 0.3s ease;
+}
+
+.info-contacto .input-box input:focus, .info-contacto .input-box input:valid,
+.info-contacto .input-box textarea::before, .info-contacto .input-box textarea:focus {
+    border-color: #54b9eb;
+}
+
+form .enviar-mensaje {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .enviar-mensaje input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(62, 60, 60);
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #54b9eb, rgb(57, 239, 66));
+}
+
+form .enviar-mensaje input:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(-135deg, #54b9eb, rgb(57, 239, 66));
+    cursor: pointer;
+}
+
+/*mensaje de contacto responsive*/
+@media (max-width: 584px) {
+    .banner-contacto {
+        max-width: 100;
+    }
+    .texto-centrado {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contenedor {
+        max-width: 100%;
+    }
+    form .info-contacto .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}

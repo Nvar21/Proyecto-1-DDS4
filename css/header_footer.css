@@ -1,7 +1,10 @@
+*{
+    margin:0;
+}
+
 body{
     font-family: sans-serif;
     margin:0;
-    background-image: url("imgenes/fondo\ R.jpg");
 }
 /***********************************************************************/
 header{
@@ -52,7 +55,9 @@ header{
     width:80%;
     height:40px;
     border-radius:25px;
+    font-size: 115%;
     border: none;
+    text-align: center;
     background-color: #e2e2e2;
 }  
 .Buscador button{
@@ -63,7 +68,7 @@ header{
     float: left;
     padding: 5px 10px;
     margin-right: 16px;
-    font-size: 10px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
     height: 40px;
@@ -71,7 +76,7 @@ header{
     border-radius: 50px;
 }
 .Buscador button img{
-    height: 20px;
+    height: 25px;
 }
 /*********************************************************************************/
 .grid{
@@ -99,61 +104,38 @@ header{
     padding-right: 10%;
 }
 /**********************************************************/
-.imagen{
-    border-radius: 40px;
-    width: 100%;
-    align-self: center;
-}
-.container{
-    width: 90%;
-    height: 100%;
-    position: relative;
+.grid{
     display: flex;
-    margin: 5%;
-    align-self: center;
-    border: 2px solid black; 
-    background-color: rgba(255, 255, 255, 0.479);
-}
-.bloq1{
-    display: flexblox;
-    width: 100%;
-    height: 100%;
-   
-    position: relative; 
-}
-.centrear{
-    text-align: center;
-    align-content: center;
-}
-.precio{
-    font-size: 20px;
-    color:#ffffff;
-    margin-top: -12px;
-    /*position:static;*/
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: #45B6ED;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.imag{
     position: relative;
-    height: 100%;
-    width: 90%;
+    display: grid;
+    width: 100%;
+    height: 60px;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
 }
-.titulo{
-    font-size: 30px;
-    color:#ffffff
+.grid div{
+    padding-top: 6%;
+    background-color: #45B6ED;
+}
+.grid div:hover{
+    border-right: 1px solid black;
+    border-left: 1px solid black;    
+}
+.grid div a{
+    color:white;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 /**********************************************************/
 footer{
     width: 100%;
-    height: 600px;
-    padding: 20px 0px;
-    background: linear-gradient(60deg, #45B6ED, #1597d8,rgb(3, 184, 12));
-    display: flex;
-    position: relative;
+    height: 350px;
+    padding: 30px 0px;
+    background: linear-gradient(-135deg, #54b9eb, rgb(57, 239, 66));
+    font-size: 20px;
 }
 
 .grid2{
@@ -167,18 +149,23 @@ footer{
 }
 .grid2 div h5{
     position:relative;
-    padding-left: 10px;
+    padding-left: 25%;
+}
+.grid2 div h6{
+    position:relative;
+    padding-left: 15%;
 }
 .grid2 div ul{
     list-style: none;
-    margin-left: -20px;
+    margin-left: -15px;
 }
 .grid2 div ul li a{
     margin: -10px;
     text-decoration: none;
-    color:#e2e2e2
+    color:#e2e2e2;
+    margin-left: 10%;
 }
 .imgfooter{
-    height: 100px;
-    border-radius: 20px;
+    height: 150px;
+    border-radius: 30px;
 }

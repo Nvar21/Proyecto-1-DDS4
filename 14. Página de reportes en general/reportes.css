@@ -181,7 +181,6 @@ body{
     
 }
 .form__title {
-    font-size:;
     margin-bottom: .5em;
 }
 .form__container {
@@ -258,8 +257,5 @@ body{
     transform: scale(1);
 }
 
-@media (max-width:425px){
-    font-size: 1.8rem;
-}
 
 
