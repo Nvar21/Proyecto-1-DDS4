@@ -11,17 +11,57 @@
   </head>
   <body>
     <header>
-      <img class="imagen-logo" src="imagenes/LogoCeleste.JPG" alt="Logo" />
-      <br />
-      <nav>
-        <ul>
-          <li class="li-aves"><a href="">Aves</a></li>
-          <li class="li-peces"><a href="">Peces</a></li>
-          <li class="li-roedores"><a href="">Roedores</a></li>
-          <li class="li-reptiles"><a href="">Reptiles</a></li>
-        </ul>
-      </nav>
+      <div class="contenedor-barra-superior">
+        <a href="registro.html"
+          ><img src="imagenes\Icono_registrarse.png" alt="" />
+          <h5>Registrarse</h5></a
+        ><a href="Login.html"
+          ><img src="imagenes\Icono_iniciar_sesion.png" alt="" />
+          <h5>Iniciar Sesión</h5>
+        </a>
+      </div>
+      <div>
+        <a href=""><img class="img-logo" src="imagenes\mypets.png" alt="" /></a>
+
+        <div class="contenedor-buscador">
+          <input
+            class="buscador"
+            type="search"
+            id="query"
+            name="q"
+            placeholder="¿Qué estás buscando?"
+          />
+          <a href="">
+            <button type="submit">
+              <img class="img-lupa" src="imagenes\5122475.png" alt="" /></button
+          ></a>
+
+          <nav>
+            <ul>
+              <li class="fondo-grad-ave animal">
+                <a href="09. Página de revisión del contenido cargado/Aves.html">Aves</a>
+              </li>
+              <li class="fondo-grad-pez animal">
+                <a href="09. Página de revisión del contenido cargado/Peces.html">Peces</a>
+              </li>
+              <li class="fondo-grad-roedor animal">
+                <a href="09. Página de revisión del contenido cargado/Roedores.html">Roedores</a>
+              </li>
+              <li class="fondo-grad-reptil animal">
+                <a href="09. Página de revisión del contenido cargado/Reptiles.html">Reptiles</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="perfil">
+        <a href="Perfil.html"
+          ><img class="img-perfil" src="imagenes\foto de perfil.jpg" alt=""
+        /></a>
+        <a href=""><h2>Perfil del usuario</h2></a>
+      </div>
     </header>
+    
     <section>
       <input type="search" id="query" name="q" placeholder="Search..." />
       <button>Buscar...</button>
