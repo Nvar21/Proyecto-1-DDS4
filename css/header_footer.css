@@ -1,134 +1,199 @@
-*{
-    margin:0;
-}
-
-body{
-    font-family: sans-serif;
-    margin:0;
-}
-/***********************************************************************/
-header{
-    position: relative;
-}
-.Encabezado{
-    margin-top: 0%;
-    background-color: #45B6ED;
-    position: relative;
+* { 
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+  }
+  
+  header {
     width: 100%;
-    height: 120px;
-}
-.Encabezado a{
-    display: block;
-    position: relative;
-    color: #f2f2f2;
-    text-align: left;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    width: 100%;
-}
-.Encabezado a img{
-    position:static;
-    float:left;
+    background: linear-gradient(-135deg, #54b9eb, rgb(57, 239, 66));
+  }
+  
+  .img-logo {
+    padding: 0px;
+    width: 10%;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
     margin-left: 5%;
-}
-.flotarderecha{
-    position:relative;
+    margin-top: 5px;
+  }
+  
+  .contenedor-barra-superior {
+    width: 100%;
+    float: right;
+    padding: 5px;
+    background-color: rgba(112, 112, 112, 0.267);
+    display: block;
     text-align: center;
-    margin-left: 8%;
-    display: flex;
-    
-}
-
-.img{
-    height: 100px;
-}
-
-.Buscador{
-    float:left;
-    position: relative;
-    width:60%;
-}
-.Buscador input[type=text]{
-    margin-top: 1%;
-    margin-left: 10%;
-    width:80%;
-    height:40px;
-    border-radius:25px;
-    font-size: 115%;
-    border: none;
-    text-align: center;
-    background-color: #e2e2e2;
-}  
-.Buscador button{
-    background-color: #e2e2e2;
-    margin-top: 1%;
-    position:absolute;
-    color: #e2e2e2;
+  }
+  
+  .contenedor-barra-superior a {
+    width: 10%;
+    float: right;
+    margin-right: 5px;
+    background-color: rgba(127, 255, 212, 0.247);
+  }
+  
+  .contenedor-barra-superior img {
+    background-color: none;
     float: left;
-    padding: 5px 10px;
-    margin-right: 16px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
-}
-.Buscador button img{
-    height: 25px;
-}
-/*********************************************************************************/
-.grid{
-    position: relative;
-    display: grid;
-    width: 100%;
-    height: 60px;
-    grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-}
-.grid div{
-    padding-top: 6%;
-    background-color: #45B6ED;
-}
-.grid div:hover{
-    border-right: 1px solid black;
-    border-left: 1px solid black;    
-}
-.grid div a{
-    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 15%;
+    margin-right: 5%;
+  }
+  
+  .contenedor-barra-superior h5 {
+    margin-top: 3%;
+  }
+  
+  .contenedor-buscador {
+    margin-top: 3%;
+    width: 60%;
+    float: right;
+    margin-right: 20%;
+  }
+  
+  .buscador {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    border: 0px;
+    padding: 7px;
+    color: grey;
+    margin: 0%;
+  }
+  
+  button {
+    margin-bottom: 2px;
+    border: 0px;
+    padding: 0px;
+    float: right;
+    margin-right: 15%;
+    width: 5%;
+    background-color: greenyellow;
+    border: 0px;
+  }
+  .img-lupa {
+    border: 5px;
+    width: 50%;
+  }
+  
+  header nav ul {
+    list-style: none;
     text-decoration: none;
-    padding-top: 30px;
-    padding-bottom:30px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-/**********************************************************/
-.grid{
-    display: flex;
-    position: relative;
-    display: grid;
-    width: 100%;
-    height: 60px;
-    grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-}
-.grid div{
-    padding-top: 6%;
-    background-color: #45B6ED;
-}
-.grid div:hover{
-    border-right: 1px solid black;
-    border-left: 1px solid black;    
-}
-.grid div a{
-    color:white;
+    justify-content: center;
+    display: inline-flex;
+  }
+  header nav ul li {
+    list-style: none;
     text-decoration: none;
-    padding-top: 30px;
-    padding-bottom:30px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  header nav ul li a {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 1px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .animal {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.8s;
+    background-size: 200% auto;
+    border-radius: 10px;
+  }
+  
+  .fondo-grad-ave {
+    border-radius: 5px;
+  }
+  
+  .fondo-grad-pez {
+    border-radius: 5px;
+  }
+  
+  .fondo-grad-roedor {
+    border-radius: 5px;
+  }
+  
+  .fondo-grad-reptil {
+    border-radius: 5px;
+  }
+  
+  .fondo-grad-ave:hover {
+    background-image: linear-gradient(
+      to left,
+      #ceff49 15%,
+      rgb(214, 191, 64) 51%,
+      #f79b10 100%
+    );
+    background-position: right center;
+    border-radius: 25px;
+  }
+  
+  .fondo-grad-pez:hover {
+    background-image: linear-gradient(
+      to left,
+      #49e4ff 15%,
+      rgb(64, 141, 214) 51%,
+      #10c1f7 100%
+    );
+    background-position: right center;
+    border-radius: 25px;
+  }
+  
+  .fondo-grad-roedor:hover {
+    background-image: linear-gradient(
+      to left,
+      #b88154 15%,
+      rgb(248, 161, 124) 51%,
+      #b4a18f 100%
+    );
+    background-position: right center;
+    border-radius: 25px;
+  }
+  
+  .fondo-grad-reptil:hover {
+    background-image: linear-gradient(
+      to left,
+      #23f546 15%,
+      rgb(20, 196, 4) 51%,
+      #119155 100%
+    );
+    background-position: right center;
+    border-radius: 25px;
+  }
+  
+  .perfil {
+    margin-top: -10%;
+    float: right;
+    clear: both;
+    padding: 0;
+    text-align: center;
+    width: 20%;
+  }
+  
+  .img-perfil {
+    padding: 0px;
+    width: 35%;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .perfil a {
+    text-decoration: none;
+    text-overflow: ellipsis;
+  }
+  
 /**********************************************************/
 footer{
     width: 100%;
