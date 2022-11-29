@@ -55,106 +55,46 @@ body{
     padding-right: 10%;
 }
 /**********************************************************/
-
-/*************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-body{
-    font-family: 'Roboto', sans-serif;
-    background-image: url(imagenes/fondo\ R.jpg);
-    background-size: auto;
-    background-attachment: fixed;
-    margin: 0;
-    font-family: monospace;
-    min-height: 100vh;
-    
-}
-.form {
-    background-color : rgba(0, 0, 0, 0.1);
-    margin: auto;
-    width:90%;
-    max-width: 400px;
-    padding: 4.5em 3em;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px - 5px rgba(0/0/0/30%);
-    text-align: center;
-    
-}
-.form__title {
-    margin-bottom: .5em;
-}
-.form__container {
-    margin-top: 3em;
-    display: grid;
-    gap: 2.5em;
-    
-} 
-.form__group {
+.container{
+    width: 90%;
+    height: 100%;
     position: relative;
-    --color: #0c0c0c;
-    padding-top: 30px;
+    display: flex;
+    margin: 5%;
+    align-self: center;
+    border: 2px solid black; 
+    background-color: rgba(255, 255, 255, 0.479);
 }
-.form__input {
+.bloq1{
+    display: flexblox;
     width: 100%;
-    background: none;
-    color:#0c0c0c;
-    font-size: 1rem;
-    padding: .6em .3em;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid var(--color);
-    font-family: 'Roboto', sans-serif;
-
+    height: 100%;
+   
+    position: relative; 
 }
-
-.form__imput:not(:placeholder-shown) {
-    color: #4d4646;
+.centrear{
+    text-align: center;
+    align-content: center;
 }
-
-.form__input:focus + .form__label,
-.form__imput:not(:placeholder-shown) + .form__label
-{
-    transform: translateY(-12px) scale(.7);
-    transform-origin: left top;
-    color: rgb(8, 40, 250);
+.precio{
+    font-size: 20px;
+    color:#ffffff;
+    margin-top: -12px;
+    /*position:static;*/
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #45B6ED;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.form__label{
-    color: var(--color);
-    cursor: pointer;
-    position: absolute;
-    top: 0%;
-    left: 5px;
-    transform: translateY(10px);
-    transition: transform .5s, color .3s;
+.imag{
+    position: relative;
+    height: 100%;
+    width: 90%;
 }
-
-   .form__submit{
-    background: #31384A ;
-    color: aliceblue;
-    width:300px;
-    height:30px;
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    margin: 10px;
-
-   }    
-
-   .form__line{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #3866f2;
-    transform: scale(0);
-    transform: left bottom;
-    transition: transform .4s;
-   }
-
-   .form__focus ~ .form__line
-.form__imput:not(:placeholder-shown) ~ .form__line {
-    transform: scale(1);
+.titulo{
+    padding-top: 15px;
+    font-size: 30px;
+    color:black
 }
-
-
-

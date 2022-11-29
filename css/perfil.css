@@ -130,6 +130,10 @@ body{
 .div5 h1{
     padding-left: 10px;
 }
+.div5 h1 a {
+    text-decoration: none;
+    color: black;
+}
 #section-carrusel{
     margin-top: 20px;
     border-radius: 25px;
