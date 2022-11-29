@@ -5,46 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oikiakos/Reportes</title>
+    <link rel="stylesheet" href="../css/header_footer.css">
     <link rel="stylesheet" href="reportes.css">
     <link rel="shortcut icon" href="../imagenes/LogoCeleste.JPG" />
 </head>
 <body>
     <header>
-        <nav class="Encabezado"> 
-            <div>
-                <a title="Inicio" href="" ><img src="../imagenes/LogoCeleste.JPG" alt="LogoOikiakos" class="img"/></a>
-            </div>
-            <div class="Buscador">
-                <form action="#">
-                    <input type="text"
-                        placeholder="Buscar"
-                        name="search">
-                    <button>
-                        <img src="imagenes/lupa.png" alt="">
-                    </button>
-                </form>
-            </div>
-            <div class="flotarderecha">
-                <a href="../Login.html">Iniciar Sesión</a>
-                <a href="../registro.html">Registrarse</a>
-                <a href="../Perfil.html">Perfil</a>
-            </div>
-        </nav>
-        <div class="grid">
-            <div >
-                <a href="../09. Página de revisión del contenido cargado/Aves.html">Aves</a>
-            </div>
-            <div>
-                <a href="../09. Página de revisión del contenido cargado/Roedores.html">Roedores</a>
-            </div>
-            <div>
-                <a href="../09. Página de revisión del contenido cargado/Peces.html">Peces</a>
-            </div>
-            <div>
-                <a href="../09. Página de revisión del contenido cargado/Reptiles.html">Reptiles</a>
-            </div>
+        <div class="contenedor-barra-superior">
+          <a href="../registro.html"
+            ><img src="../imagenes/Icono_registrarse.png" alt="" />
+            <h5>Registrarse</h5></a
+          ><a href="../Login.html"
+            ><img src="../imagenes\Icono_iniciar_sesion.png" alt="" />
+            <h5>Iniciar Sesión</h5>
+          </a>
         </div>
-    </header>
+        <div>
+          <a href="../index.html"><img class="img-logo" src="../imagenes\mypets.png" alt="" /></a>
+  
+          <div class="contenedor-buscador">
+            <input
+              class="buscador"
+              type="search"
+              id="query"
+              name="q"
+              placeholder="¿Qué estás buscando?"
+            />
+            <a href="">
+              <button type="submit">
+                <img class="img-lupa" src="../imagenes\5122475.png" alt="" /></button
+            ></a>
+  
+            <nav>
+              <ul>
+                <li class="fondo-grad-ave animal">
+                  <a href="../09. Página de revisión del contenido cargado/Aves.html">Aves</a>
+                </li>
+                <li class="fondo-grad-pez animal">
+                  <a href="../09. Página de revisión del contenido cargado/Peces.html">Peces</a>
+                </li>
+                <li class="fondo-grad-roedor animal">
+                  <a href="../09. Página de revisión del contenido cargado/Roedores.html">Roedores</a>
+                </li>
+                <li class="fondo-grad-reptil animal">
+                  <a href="../09. Página de revisión del contenido cargado/Reptiles.html">Reptiles</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="perfil">
+          <a href="../Perfil.html"
+            ><img class="img-perfil" src="../imagenes\foto de perfil.jpg" alt=""
+          /></a>
+          <a href=""><h2>Perfil del usuario</h2></a>
+        </div>
+      </header>
     
 
    <form class="form">
@@ -93,7 +109,7 @@
             <h5>NOSOTROS</h5>
             <ul>
                 <li><h6><a href="../Nosotros.html">Nosotros</a></h6></li>
-                <li><h6><a href="../Acerca_del_proyecto.html">Sobre el Proyecto</a></h6></li>
+                <li><h6><a href="">Sobre el Proyecto</a></h6></li>
             </ul>
         </div>
         <div>
@@ -116,7 +132,7 @@
         <div>
             <h5>CONTACTENOS</h5>
             <ul>
-                <li><h6><a href="../contacto.html">Contactenos</a></h6></li>
+                <li><h6><a href="">Contactenos</a></h6></li>
                 <li><h6>Whatsapp (+507) 6466-6026</h6></li>
                 <li><h6>Correo: OikiakosPanama@hotmail.com</h6></li>
             </ul>
@@ -125,7 +141,7 @@
             <a href=""></a>
         </div>
         <div>
-            <a href="../index.html"><img src="../imagenes/LogoCeleste.JPG" alt=""class="imgfooter"></a>
+            <a href="../index.html"><img src="imgenes/LogoCeleste.JPG" alt=""class="imgfooter"></a>
         </div>
     </div>
 </footer>
