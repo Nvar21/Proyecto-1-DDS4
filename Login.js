@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oikiakos/Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="imagenes/LogoCeleste.JPG" />
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+        <img src="imagenes/login/atras.png" class="boton1" >
+        </a>
+    </header> 
+
+        <form class="Form">
+             <img class="Logo"src="imagenes/LogoCeleste.JPG">
+            <h2 class="form_title">Iniciar Sesion</h2>
+
+        <!--NOMBRE-->
+        <div class="form_container">
+            <div class="form_group">
+            <input type="text" id="name" class="form_input" placeholder=" ">
+            <label for="name" class="form_label">Nombre</label>
+            <span class="fomr_line"></span>
+        </div>
+
+        <!--USER-->
+        <div class="form_group">
+            <input type="text" id="user" class="form_input" placeholder=" ">
+            <label for="user" class="form_label">Usuario</label>
+            <span class="fomr_line"></span>
+        </div>
+        
+        <!--CONTRASEÑA-->
+        <div class="form_group">
+            <input type="password" pattern=".{6," id="Password" class="form_input" placeholder=" ">
+            <label for="Password" class="form_label">Contraseña</label>
+            <span class="fomr_line"></span>
+        </div>
+
+        <input type="submit" class="form_submit" value="Ingresar">
+    </form>
+
+    <div>
+        <a href="#">ha olvidado su contraseña?</a><br>
+        <a href="registro.html">No tienes una cuenta?</a><br>
+    </div>
+
+</body>
+</html>
+
